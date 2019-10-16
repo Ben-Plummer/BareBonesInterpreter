@@ -5,7 +5,8 @@ clear Y;
 incr Y;
 incr Y;
 incr Y;
-clear Z; z0
+clear Z;
+// Example comment
 while X not 0 do;
    clear W;
    while Y not 0 do;

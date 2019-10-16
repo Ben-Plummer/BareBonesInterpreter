@@ -110,7 +110,10 @@ public class Interpreter {
 
         String contents = "";
         while (scanner.hasNextLine()) {
-            contents += scanner.nextLine();
+            String nextLine = scanner.nextLine();
+            if (!nextLine.contains("//")) {
+                contents += nextLine;
+            }
         }
 
         try {
